@@ -1,0 +1,56 @@
+✅ Apartados obligatorios
+Debes incluir los siguientes apartados. Todos son obligatorios:
+
+1. Cabecera / Datos personales
+● Nombre completo usando <h1>
+● Foto personal (por la imagen que quieras) usando <img>
+● Profesión usando <h2> o <p>
+
+2. Sobre mí
+● Un párrafo de presentación usando <p>
+
+3. Formación
+● Título de sección con <h2>
+● Cada formación debe incluir:
+○ Título con <h3>
+○ Fechas y descripción con <p>
+
+4. Experiencia laboral
+● Misma estructura que Formación:
+○ <h2> para la sección
+○ <h3> para cada experiencia
+○ <p> para fechas y descripción
+
+5. Habilidades
+● Lista de habilidades. Puedes hacerlo como quieras, incluso usando etiquetas que
+aún no hemos usado, como:
+○ <ul> (lista desordenada)
+○ <li> (elementos de la lista)
+
+✦ Apartados opcionales
+Puedes añadir uno o varios de los siguientes apartados para mejorar el ejercicio:
+● Idiomas
+○ Lista con <ul> y <li>
+
+○ Nivel usando <span> (ejemplo: Español — <span>Nativo</span>)
+
+● Proyectos personales
+○ Puedes incluir enlaces usando <a href="...">
+● Contacto
+○ Email usando mailto:
+○ Enlaces a redes profesionales (LinkedIn, etc.) con <a>
+● Intereses / Hobbies
+○ Apartado libre
+● Cita o lema personal
+○ Usando <blockquote>
+⚠ Restricciones
+● ❌ No está permitido usar CSS
+● ❌ No está permitido usar el atributo style=""
+El objetivo es centrarse exclusivamente en la estructura HTML. Evita distraerte con
+aspectos visuales.
+🧠 Recomendación
+Piensa en tu CV como un documento estructurado y legible, tanto para personas como para
+máquinas. Usa las etiquetas de forma coherente y jerárquica.
+📦 Entrega
+Entrega un archivo .html correctamente estructurado y funcional. Al finalizar el ejercicio
+hay que enseñarlo al profe.

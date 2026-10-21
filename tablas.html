@@ -6,53 +6,61 @@
     <title>Tablas</title>
 </head>
 <body>
-    <h1>Horari Daw 2</h1>
-    <table border="1" der-color="blue">
-        <tr>
-            <th></th><th>Dilluns</th><th>Dimarts</th><th>Dimecres</th><th>Dijous</th><th>Divendres</th>
+    <table border="1" align="center">
+        <tr align="center">
+            <th scope="col" colspan="6">Horari DAW 2</th>
+        </tr>   
+        <tr align="center">
+            <th scope="col"></th>
+            <th scope="col">Dilluns</th>
+            <th scope="col">Dimarts</th>
+            <th scope="col">Dimecres</th>
+            <th scope="col">Dijous</th>
+            <th scope="col">Divendres</th>
         </tr>
-        <tr>
-            <th>15:00-16:00</th>
-            <td rowspan="2">Projecte</td>
-            <td>Projecte</td>
+        <tr align="center">
+            <th scope="row">15:00-16:00</th>
+            <td rowspan="2" bgcolor="#FFCCCC">Projecte</td>
+            <td bgcolor="#FFCCCC">Projecte</td>
+            <td bgcolor="#FFF2CC">Tuto</td>
+            <td bgcolor="#FFCCCC">Projecte</td>
+            <td bgcolor="#FFCCCC">Projecte</td>
+        </tr>
+        <tr align="center">
+            <th scope="row">16:00-17:00</th>
+            <td rowspan="2" bgcolor="#CCE5FF">Servidors</td>
+            <td rowspan="2" bgcolor="#FFF2CC">Tuto</td>
+            <td rowspan="2" bgcolor="#E5CCFF">Clients</td>
+            <td rowspan="2" bgcolor="#FFCCE5">Interficies</td>
+        </tr>
+        <tr align="center">
+            <th scope="row">17:00-18:00</th>
+            <td bgcolor="#D5AAFF">Fullstack</td>
+        </tr>
+        <tr align="center">
+            <th scope="row">18:00-18:20</th>
+            <td colspan="5" align="center" bgcolor="#D3D3D3">Pati</td>
+        </tr>
+        <tr align="center">
+            <th scope="row">18:20-19:20</th>
+            <td bgcolor="#CCE5FF">Servidors</td>
             <td></td>
-            <td>Tuto</td>
-            <td>Projecte</td>
+            <td bgcolor="#E5CCFF">Clients</td>
+            <td></td>
+            <td rowspan="2" bgcolor="#D5AAFF">Fullstack</td>
         </tr>
-        <tr>
-            <th>16:00-17:00</th>
-            <td rowspan="2">Servidors</td>
-            <td rowspan="2">Tuto</td>
-            <td rowspan="2">Clients</td>
-            <td rowspan="2">Interficies</td>
-        </tr>
-        <tr>
-            <th>17:00-18:00</th>
-            <td>Fullstack</td>
+        <tr align="center">
+            <th scope="row">19:20-20:20</th>
+            <td rowspan="2" bgcolor="#CCFFCC">IPO II</td>
+            <td></td>
+            <td></td>
             <td></td>
         </tr>
-        <tr>
-            <th>18:00-18:20</th>
-            <td>Pati</td>
-            <td>Pati</td>
-            <td>Pati</td>
-            <td>Pati</td>
-            <td>Pati</td>
-        </tr>
-        <tr>
-            <th>18:20-19:20</th>
-            <td>Servidors</td>
+        <tr align="center">
+            <th scope="row">20:20-21:20</th>
             <td></td>
-            <td>Clients</td>
             <td></td>
-            <td rowspan="2">Fullstack</td>
-        </tr>
-        <tr>
-            <th>19:20-20:20</th>
-            <td rowspan="2">IPO II</td>
-        </tr>
-        <tr>
-            <th>20:20-21:20</th>
+            <td></td>
             <td></td>
         </tr>
     </table>
